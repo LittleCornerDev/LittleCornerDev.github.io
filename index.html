@@ -33,11 +33,13 @@
 			color: #fff;
 		}
 
-		.sub:before {
+		.sub:before,
+		cite:before {
 			content: "[";
 		}
 
-		.sub:after {
+		.sub:after,
+		cite:after {
 			content: "]";
 		}
 
@@ -76,6 +78,7 @@
 										<a class="dropdown-item" href="#projects-bfx">BFX</a>
 										<a class="dropdown-item" href="#projects-ghostly">Ghostly</a>
 										<a class="dropdown-item" href="#projects-etv">Enhanced TV</a>
+										<a class="dropdown-item" href="#projects-cnsi">Color Name Season Identifier</a>
 									</div>
 								</li>
 								<li class="nav-item">
@@ -197,7 +200,8 @@
 									inclusive VATs, as well as both fx rate and
 									PriceBook pricing. Implemented either via JavaScript
 									import or back-end APIs.</li>
-								<li>Built on the AngularJS framework with a NodeJS and Scala back-end, using LESS for
+								<li>Built on the AngularJS framework with a NodeJS and Scala back-end, using MongoDb for
+									data and LESS for
 									styling.
 								</li>
 							</ul>
@@ -240,7 +244,7 @@
 								<li>A cross-platform iOS and Android social app for saving/sharing notes at GPS
 									coordinates.
 								</li>
-								<li>Built on the Xamarin.Forms framework.</li>
+								<li>Built on the Xamarin.Forms framework and Google Firebase.</li>
 							</ul>
 							</p>
 						</div>
@@ -290,13 +294,11 @@
 										trivia
 										questions, compete to win prizes, and get background information</q><cite><a
 											href="https://lostpedia.fandom.com/wiki/ABC_Enhanced_TV"
-											target="_blank">Lostpedia</a></cite> while watching a variety of shows live
-									on ABC,
-									from
-									soap opera, to football, to the Oscars. Built with JS, Flash, DWTs, and Perl/CGI.
-									CSS for
-									styling.
+											target="_blank">Lostpedia</a></cite> while watching a variety
+									of live ABC broadcasts: e.g., "All My Children", NFL, Oscars
 								</li>
+								<li>Built with JS, Flash, DWTs, and Perl/CGI.
+									CSS for styling.</li>
 							</ul>
 							</p>
 						</div>
@@ -320,6 +322,38 @@
 								Enhanced TV</a></li>
 					</ul>
 
+
+					<a name="projects-cnsi"></a>
+					<h3 class="mt-4">
+						Color Name Season Identifier
+					</h3>
+					<p class="sub">for fun, from project ideation through development &amp; maintenance</p>
+
+					<br />
+					<div class="card">
+						<div class="card-body">
+							<p class="card-text">
+							<ul>
+								<li>Approximates closest color name and wardrobe season of the pixel currently under the
+									mouse pointer.</li>
+								<li>Built as a Chrome browser extension.</li>
+							</ul>
+							</p>
+						</div>
+					</div>
+					<br />
+
+					<p>
+						<video class="shadow-lg w-100" controls autoplay name="CNSI on Amazon"
+							src="videos/ColorNameSeasonIdentifier%20on%20Amazon.mov" type="video/mov">
+							[Your browser does not support the video tag.]
+						</video>
+					</p>
+
+					<p>This one was simple but time-consuming. It is available at <a
+							href="https://chrome.google.com/webstore/detail/color-name-season-identif/pddbkjjdhnmhmdeoaodeggedmebdhcgp?hl=en-US"
+							target="_blank">the Chrome
+							web store</a>.</p>
 				</section>
 
 
